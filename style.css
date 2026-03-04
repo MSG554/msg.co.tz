@@ -8,6 +8,7 @@ padding:0;
 header{
 background-color:#003366;
 color:white;
+width:99%;
 text-align:center;
 padding:1em;
 margin-top:0px;
@@ -17,7 +18,7 @@ position:relative;
 footer{
 position:fixed;
 bottom:0;
-width:100%;
+width:99%;
 background-color:#003366;
 color:white;
 text-align:center;
@@ -60,3 +61,4 @@ color:blue;
 margin:10px 0;
 }
 </style>
+
