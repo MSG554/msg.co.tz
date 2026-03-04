@@ -12,13 +12,13 @@ text-align:center;
 padding:1em;
 margin-top:0px;
 position:fixed;
-width:95%;
+width:98%;
 }
 
 footer{
 position:fixed;
 bottom:0;
-width:100%;
+width:98%;
 background-color:#003366;
 color:white;
 text-align:center;
@@ -61,6 +61,7 @@ color:blue;
 margin:10px 0;
 }
 </style>
+
 
 
 
