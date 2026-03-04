@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Assignment1 OIT 237</title>
+<link rel="stylesheet" href="style.css">
+<style>
+body{
+animation:slideshow 10s infinite;
+}
+@keyframes slideshow{
+0%{
+background-image:url('uhuru na umoja.png');
+}
+50%{
+background-image:url('logo.png');
+}
+100%{
+background-image:url('image3.jpg');
+}
+</style>
+</head>
+
+<body style="background-color:#f2f2f2;">
+<header>
+<img src="logo.png" width="100px" height="120px" align="right">
+<img src="uhuru na umoja.png" width="100px" height="120px" align="left">
+<h1>&spades; Athanas Masaga Mohamed &clubs;</h1>
+<p>&hearts; Welcome to My Homepage &diams;</p>
+</header>
+
+<div class="nav">
+<a href="info.html" target="_blank">
+<button>Personal Info</button>
+</a>
+<a href="hobbies.html" target="_blank">
+<button>Hobbies</button>
+</a>
+<a href="favourites.html" target="_blank">
+<button>Favourites</button>
+</a>
+<a href="links.html" target="_blank">
+<button>Links</button>
+</a>
+</div>
+
+
+<footer>
+<marquee>&copy; 2026 Masaga</marquee>
+
+<script>
+window.onload=function(){
+document.getElementById("location").innerHTML="Page location: " + window.location.href+
+"<br> Last modified: " + document.lastModified;
+};
+</script>
+<p id="location"></p>
+<p id="lastModified"></p>
+</footer>
+</body>
+</html>
