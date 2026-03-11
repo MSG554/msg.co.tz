@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Entry Form</title>
+</head>
+<body>
+<h2>Fill The Form Below</h2>
+<form action="process.php" method="POST">
+<lable>Full Name</label><br>
+<input type="text" name="fullname" required> <br><br>
+
+<lable>Email</label><br>
+<input type="email" name="email" required><br><br>
+
+<lable>Sex</label><br>
+Female<input type="radio" name="sex" value="female" required> Male<input type="radio" name="sex" value="male"><br><br>
+
+<lable>Choose Your Favourite Food</label><br>
+Steak<input type="checkbox" name="foods" value="steak"> <br>
+Pizza<input type="checkbox" name="food" value="pizza"> <br>
+Chicken<input type="checkbox" name="food" value="chicken">
+<br><br>
+
+<textarea cols="25" rows="5" name="textarea" placeholder="Enter Your Favourite Qoute" required>
+</textarea> <br><br>
+
+<lable>Select Level of Education</label><br>
+<select name="education" required>
+<option value="primary">Primary Education</option>
+<option value="secondary">Secondary Education</option>
+<option value="advanced">Advanced Education</option>
+<option value="certificate">Certificate</option>
+<option value="diploma">Diploma</option>
+<option value="degree">Degree</option>
+</select><br><br>
+
+<label>Select your favorite time of day<label><br>
+<select name="time" required>
+<option value="Morning">Morning</option>
+<option value="Day">Day</option>
+<option value="Night">Night</option>
+</select><br><br>
+
+<lable>Password</label><br>
+<input type="password" name="password" required><br><br>
+<input type="submit" value="Submit"><br>
+</body>
+</html>
