@@ -49,7 +49,7 @@ justify-content:space-around;
 display:flex;
 justify-content:center;
 border:none;
-gap:200px;
+gap:70px;
 margin:20px 0;
 }
 
@@ -60,4 +60,5 @@ color:blue;
 margin:10px 0;
 }
 </style>
+
 
